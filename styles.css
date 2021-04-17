@@ -1,0 +1,113 @@
+body, html {
+    font-family: "Alata";
+    margin: 0px;
+    height: 100vh;
+}
+
+.section-4{
+    padding: 98px;
+    background: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.events-headline{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.4625px;
+    color: #373737;
+    padding: 98, 495,5, 716, 495,5;
+}
+
+.events-info {
+    height: 80px;
+    font-family: Alata;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 38px;
+    max-width: 949px;
+    max-height: 80px;
+    color: #7D7D7D;
+}
+
+.event-calendar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calendar-icon{
+    background: rgb(113, 124, 255, 0.14);
+    mix-blend-mode: normal;
+    border-radius: 11px;
+    width: 76px;
+    height: 76px;
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    text-align: center;
+    color: #717CFF;
+}
+
+.event-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+}
+
+.date{
+    padding: 10px, 20px, 29px, 21px;
+}
+
+.month{
+    padding: 42px, 23px, 9px, 22px;
+}
+
+.event-content{
+    max-width: 481px;
+    max-height: 90px;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.learn-more{
+    justify-content: center;
+
+}
+
+.event-time{
+    justify-content: space-around;
+}
+
+.learn-more-link{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 0.439286px;
+    color: #717CFF;
+}
