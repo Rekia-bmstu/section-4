@@ -46,6 +46,8 @@ body, html {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    padding-top: 100px;
+    flex-wrap: wrap;
 }
 
 .top{
@@ -74,6 +76,12 @@ body, html {
     background-color: white;
     border-radius: 15px;
     padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    max-width: 540;
+    max-height: 308;
 }
 
 .date{
@@ -87,6 +95,13 @@ body, html {
 .event-content{
     max-width: 481px;
     max-height: 90px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #37474FB8;
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 
 .bottom{
